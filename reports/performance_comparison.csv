@@ -1,0 +1,3 @@
+query,best_seconds,avg_seconds,speedup_vs_baseline_best
+baseline_direct_query,0.7276415000087582,1.0556739333357352,1.0
+materialized_view_read,0.3565783999947598,0.40158379999920724,2.040621361303577

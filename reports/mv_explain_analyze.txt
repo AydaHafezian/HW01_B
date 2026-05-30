@@ -1,0 +1,8 @@
+Sort  (cost=1.71..1.77 rows=22 width=180) (actual time=0.062..0.067 rows=22 loops=1)
+  Sort Key: num_listings DESC
+  Sort Method: quicksort  Memory: 27kB
+  Buffers: shared hit=1
+  ->  Seq Scan on mv_airbnb_neighbourhood_summary  (cost=0.00..1.22 rows=22 width=180) (actual time=0.022..0.033 rows=22 loops=1)
+        Buffers: shared hit=1
+Planning Time: 0.110 ms
+Execution Time: 0.101 ms
